@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" src="./assets/style.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Chris Shurr | Portfolio</title>
 </head>
 <body>
     <!-- header with nav bar and photo -->
-    <header>
-        <img>
-        <h1>Chris Shurr's Portfolio</h1>
-        <nav>
-            <li>
-                <ul><a></a></ul>
-                <ul><a></a></ul>
-                <ul><a></a></ul>
-            </li>
-        </nav>
+    <header class="header">
+        <img src="assets/IMG_0200.jpg">
+        <h1>Chris Shurr</h1>
     </header>
-    <section>
-        <p>Bio</p>
-        <li>
-            <h2>Contact Me</h2>
-            <ul><a> email</a></ul>
-            <ul><a>github</a></ul>
-        </li>
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="#info">Bio</a>
+            </li>
+            <li>
+                <a href="#work">Work</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="info" id="info">
+        <h2>Bio</h2>
+        <p>Chris Shurr regularly eats pudding using the lid of the container. She's had an illustrious career as a software dev starting in September of 2022 to current day. Many didn't believe she would make it this far, herself included. She said her rolemodel is Garfield, sharing his prickly disposition, anger towards the start of a new week, and an all-consuming love for lasagna</p>
+        <h2>Contact Me</h2>
+        <ul>
+            <li>
+                <a href="mailto:shurrc@gmail.com">email</a>
+            </li>
+            <li>
+                <a href="https://github.com/shurrc">github</a>
+            </li>
+        </ul>
     </section>
     <!-- section containing images of projects that link to them -->
-    <section>
+    <section class="Work" id="work">
         <!-- first image need to be larger than the other  -->
-        <img> 
-        <img>
-        <img>
+        <div class="projectCard"> 
+            <!-- flex direction column, flex-direction row tablet desktop  -->
+           <a href="https://shurrc.github.io/code-refactor/" target="_blank"><img src="./assets/Screen Shot 2022-09-27 at 5.40.16 PM.png"></a>
+            <div>
+                <h3>Code-Refactor</h3>
+                <p>This is a refactoring of code to improve SEO, and increase accessability.</p>
+            </div>
+        </div>
+
     </section>
     <!-- footer with authored by  -->
     
